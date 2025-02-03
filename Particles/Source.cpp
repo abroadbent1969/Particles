@@ -121,7 +121,7 @@ int main() {
     float vortexStrength = 0.2f;
     float lightStrength = 0.5f;
 
-    // Load and play audio
+    // Load and play audio file
     sf::SoundBuffer buffer;
     if (!buffer.loadFromFile("pronunciation_assessment.wav")) {
         return -1;
