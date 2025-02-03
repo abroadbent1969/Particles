@@ -30,22 +30,22 @@ public:
         // Handle collisions with window boundaries
         if (position.x <= 0) {
             position.x = 0;  // Prevent particle from going out of bounds
-            velocity.x *= -3.2f;  // Bounce effect
+            velocity.x *= -1.5f;  // Bounce effect
             color = sf::Color::Blue;  // Change color on left boundary collision
         }
         if (position.x + size >= windowWidth) {
             position.x = windowWidth - size;  // Prevent particle from going out of bounds
-            velocity.x *= -3.2f;  // Bounce effect
+            velocity.x *= -1.5f;  // Bounce effect
             color = sf::Color::Red;  // Change color on right boundary collision
         }
         if (position.y <= 0) {
             position.y = 0;  // Prevent particle from going out of bounds
-            velocity.y *= -3.2f;  // Bounce effect
+            velocity.y *= -1.5f;  // Bounce effect
             color = sf::Color::Green;  // Change color on top boundary collision
         }
         if (position.y + size >= windowHeight) {
             position.y = windowHeight - size;  // Prevent particle from going out of bounds
-            velocity.y *= -3.2f;  // Bounce effect
+            velocity.y *= -1.5f;  // Bounce effect
             color = sf::Color::White;  // Change color on bottom boundary collision
         }
 
