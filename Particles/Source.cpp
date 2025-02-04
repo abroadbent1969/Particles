@@ -118,8 +118,8 @@ int main() {
     sf::Clock clock;
     sf::Vector2f wind(0.0f, 0.0f);
     sf::Vector2f vortexCenter(400.0f, 300.0f);  // Center of vortex
-    float vortexStrength = 0.2f;
-    float lightStrength = 0.5f;
+    float vortexStrength = 0.04f;
+    float lightStrength = 0.09f;
 
     // Load and play audio file
     sf::SoundBuffer buffer;
@@ -185,7 +185,7 @@ int main() {
         }
 
         // Gradually reduce wind influence
-        wind *= 0.99f;
+        wind *= 0.75f;
 
         // Update particles
         particleSystem.update(deltaTime, window.getSize().x, window.getSize().y, wind);

@@ -12,7 +12,7 @@ C:\Users\abroadbent\source\repos\Particles\Particles\Source.cpp(191,58): warning
   Generating code
   1 of 197 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Particles.vcxproj -> C:\Users\abroadbent\source\repos\Particles\x64\Release\Particles.exe
   'pwsh.exe' is not recognized as an internal or external command,
